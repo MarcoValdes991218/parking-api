@@ -1,0 +1,9 @@
+PATCH http://localhost:3000/reserva/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiZW1haWwiOiJtYWtvQGdtYWlsLmNvbSIsInJvbCI6IkNsaWVudGUiLCJpYXQiOjE3MjczODUyNDYsImV4cCI6MTcyNzM4ODg0NiwiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.I73OW3ZZ7Bp1HaLkt6N0D-hoyfySCd4HSy01LJYurP8
+
+{
+    "id":2,
+    "fechaInicio":"2024-10-25T14:30:00.000Z" ,
+    "fechaFin":"2025-11-25T14:30:00.000Z"
+}

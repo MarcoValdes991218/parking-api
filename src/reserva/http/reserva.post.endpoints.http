@@ -1,0 +1,13 @@
+POST http://localhost:3000/reserva
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiZW1haWwiOiJtYWtvQGdtYWlsLmNvbSIsInJvbCI6IkNsaWVudGUiLCJpYXQiOjE3MjczODQ4NDksImV4cCI6MTcyNzM4ODQ0OSwiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.Il6FzF4V134dFVR5OrGwZib7uD7Sbtqm0IWbEY1CI3U
+{
+    "user_id": 6,
+    "fechaInicio":"2024-10-25T14:30:00.000Z",
+    "fechaFin":"2023-11-25T14:30:00.000Z",
+    "marca":"Toyota",
+    "modelo":"Corolla",
+    "placa": "123ABCDS"
+
+
+}

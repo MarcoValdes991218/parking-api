@@ -1,0 +1,18 @@
+PATCH http://localhost:3000/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiZW1haWwiOiJtYXJjb3ZhbGRlczU3NkBnbWFpbC5jb20iLCJyb2wiOiJBZG1pbiIsImlhdCI6MTcyNzM4ODg2MywiZXhwIjoxNzI3MzkyNDYzLCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.GrqB_mdWXB-igdE26IVuaEohZcIqPwEZdblkopby3LA
+{
+    "id":6,
+    "password": "makoadasda@212"
+    
+}
+
+PATCH http://localhost:3000/users/update-password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsImVtYWlsIjoibWFyY292YWxkZXM1NzZAZ21haWwuY29tIiwicm9sIjoiQ2xpZW50ZSIsImlhdCI6MTcyNzM5MzA0NSwiZXhwIjoxNzI3Mzk2NjQ1LCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.0LikBaoEYb0HS0yRrOUMg9eeO4dcMqB6PtOrvkDpmLk
+{
+   "email": "marcovaldes576@gmail.com",
+    "password": "Habana2121@",
+    "newpassword": "asd212@@1123"
+  
+}
